@@ -7,6 +7,15 @@ Helping Roza who is a biological researcher to build an interactive dashboard to
 
  - Create a Horizontal Bar Chart that displays the top 10 bacterial species (OTUs) when an individual’s ID is selected from the dropdown menu on the webpage. 
  
- - create a bubble chart that displays the 
+ - create a bubble chart that displays each sample. 
  
  - create a gauge chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu.
+ 
+ ## Resources
+ 
+ - Data Source: Belly button samples data
+ - Software: HTML/CSS, JavaScript, Visual Studio Code 1.49.1, BootStrap 3.3.7, D3, Plotly 4.11
+ 
+ ## Deployment
+ 
+ 
