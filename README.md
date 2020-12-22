@@ -16,6 +16,4 @@ Helping Roza who is a biological researcher to build an interactive dashboard to
  - Data Source: Belly button samples data
  - Software: HTML/CSS, JavaScript, Visual Studio Code 1.49.1, BootStrap 3.3.7, D3, Plotly 4.11
  
- ## Deployment
- 
- 
+
