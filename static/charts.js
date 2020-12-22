@@ -88,9 +88,8 @@ function buildCharts(sample) {
       tickmode: "array",
       tickvals: [0,1,2,3,4,5,6,7,8,9],
       ticktext: yticks
-    }
-     
-    };
+    },     
+  };
     // 10. Use Plotly to plot the data with the layout. 
   Plotly.newPlot("bar", barData, barLayout); 
 
@@ -138,7 +137,6 @@ var washFreq = firstMetaSample.wfreq;
      gauge: {
       axis: {
         range: [null, 10],
-        //tickmode: "array",
         tickvals: [0,2,4,6,8,10],
         ticktext: [0,2,4,6,8,10]
       },
@@ -154,18 +152,11 @@ var washFreq = firstMetaSample.wfreq;
 
 // 5. Create the layout for the gauge chart.
   var gaugeLayout = { 
-      //autosize: true,
-     //annotations: [{
-        //xref: 'paper',
-        //yref: 'paper',
-        //x: 0.5,
-        //xanchor: 'center',
-        //y: 0,
-        //yanchor: 'center',
-        //text: "The gauge displays your belly button weekly washing frequency",
-        showarrow: false
-      //}]
-    };
+    width: 520,
+    height: 470,
+    margin: { t: 10, r: 25, l: 15, b: 10 },
+    font: { color: "darkblue" }
+  };
 
 // 6. Use Plotly to plot the gauge data and layout.
 
